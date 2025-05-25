@@ -1,0 +1,240 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card1-background {
+  background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+    width: 13mm;
+    left: 71mm;
+    top: 0mm;
+    height: 21mm;
+    border-top: 28pt solid #f74d17;
+    border-left: 50pt solid transparent;
+    position: absolute;
+  }
+  .left-small{
+    position: absolute;
+    width: 19mm;
+    left: -9mm;
+    top: -8mm;
+    border-left: 0mm solid #f9f7f3;
+    border-top: 52pt solid white;
+    transform: skewX(-50deg);
+  }
+  .left-mid{
+    position: absolute;
+    width: 53mm;
+    left: -3mm;
+    top: -31mm;
+    height: 24mm;
+    transform: skewx(24deg);
+    border-top: 148mm solid #0f0f6f;
+    border-right: 35mm solid #0f0f6f;
+  }
+
+.card1-content
+{
+   margin-left: 23px;
+    position: absolute;
+    top: 18mm;
+    left: 62mm;
+    margin-top: 11pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    font-family: Roboto Slab serif;
+    font-style: inherit;
+    width: 234pt;
+    font-size: 7.9mm;
+    font-weight: bold;
+  }
+  .party-job-title
+  {
+    font-family: serif;
+    font-size: 6.4mm;
+    margin-top: -9pt;
+  }
+
+  .qr-img
+  {
+    max-width: 21%;
+    height: auto;
+  }
+
+  .qr-code
+  {
+    top: 14mm;
+    left: -35mm;
+    position: absolute;
+  }
+  
+  .company
+  {
+    font-weight: 700;
+    font-size: 1.0em;
+    font-family: Roboto Slab serif;
+    font-size: 1.3em;
+    margin-top: -1pt;
+  }
+
+ .party-phone
+ {
+  font-weight: 300;
+    font-family: Roboto Slab serif;
+    margin-top: 2mm;
+    position: relative;
+    top: 10mm;
+    left: 7mm;
+    font-size: 8pt;
+ }
+
+ .party-email
+ {
+  font-weight: bolder;
+    font-size: 2.5mm;
+    position: relative;
+    top: 0pt;
+    left: 3pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+      
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    background-color: #250493;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+   width: 0;
+    height: 0;
+    border-top: 174pt solid #250493;
+    border-left: 101pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+
+  .Right-mid
+  {
+   width: 0;
+    height: 0;
+    border-right: 54pt solid white;
+    border-top: 0pt solid white;
+    border-bottom: 70pt solid transparent;
+    position: absolute;
+    right: 0; 
+  }
+
+  .card2-content
+  {
+   position: absolute;
+    top: 25mm;
+    left: 24mm;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .org-logo-img
+  {
+    position: relative;
+    top: -8mm;
+    left: 0mm;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -7mm;
+    left: 2mm;
+    font-style: oblique;
+    font-size: 13pt;
+  }
+
+  .org-address
+  {
+    position: absolute;
+    top: 28pt;
+    left: 14px;
+    font-style: normal;
+    font-size: 7pt;
+  }
+
+  .org-email
+  {
+    position: absolute;
+    top: 58pt;
+    left: 49pt;
+    font-style: normal;
+    font-size: 9pt;
+  }
+  
+  .org-phone
+  {
+    position: relative;
+    top: 27pt;
+    left: 3px;
+    font-style: normal;
+    font-size: 9pt;
+  }
+
+  .org-website
+  {
+    position: relative;
+    top: 25pt;
+    left: 11pt;
+    font-style: normal;
+    font-size: 9pt;
+  }
